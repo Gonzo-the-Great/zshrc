@@ -1,11 +1,10 @@
-# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/greg/.oh-my-zsh"
 #
 # Aliases
-alias conf='nano ~/.zshrc'
+alias conf='micro ~/.zshrc'
 alias src='source ~/.zshrc'
 alias fs='du -hs * | gsort -h' #print size of current files and directories in the current directory, sorted by size
 alias op='open .' #open current folder in the macOS Finder
