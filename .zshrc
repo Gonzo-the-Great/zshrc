@@ -144,3 +144,7 @@ prompt_context() {
 # downloaded with brew - No configuration done - 12-9-21
 #source /opt/homebrew/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
 
+# Pull latest version of zshrc
+yadm pull -f
+source ~/.zshrc
+
