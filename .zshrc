@@ -145,6 +145,6 @@ prompt_context() {
 #source /opt/homebrew/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
 
 # Pull latest version of zshrc
+# This won't take effect until a source is issued or the next time you login
 yadm pull -f
-source ~/.zshrc
 
