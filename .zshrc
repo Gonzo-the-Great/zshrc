@@ -3,6 +3,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 #
+# Make defauled editor 'micro'
+export EDITOR='micro'
 # Aliases
 alias conf='micro ~/.zshrc'
 alias src='source ~/.zshrc'
