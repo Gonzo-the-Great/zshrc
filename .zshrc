@@ -6,6 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Make defauled editor 'micro'
 if [[ `uname` == "Linux" ]]; then
   export EDITOR='micro'
+  alias code='micro'
 fi
 # Aliases
 alias conf='micro ~/.zshrc'
