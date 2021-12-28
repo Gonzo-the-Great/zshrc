@@ -4,9 +4,11 @@
 export ZSH="$HOME/.oh-my-zsh"
 #
 # Make defauled editor 'micro'
-if [[ `uname` == "Linux" ]]; then
+if [[ `uname` == "Linux" ]]; then # It's Linux
   export EDITOR='micro'
-  alias code='micro'
+  
+elif [[ `uname` == "Darwin" ]]; then # It's a MAC
+  
 fi
 # Aliases
 alias conf='micro ~/.zshrc'

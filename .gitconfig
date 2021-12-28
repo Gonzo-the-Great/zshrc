@@ -8,4 +8,4 @@
 	email = 18699503+GonzoTG@users.noreply.github.com
 	
 [core]
-	editor = code --wait
+	editor = micro
