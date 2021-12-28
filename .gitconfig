@@ -1,0 +1,11 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Greg Lowe
+	email = 18699503+Gonzo-the-Great@users.noreply.github.com
+	
+[core]
+	editor = code --wait
