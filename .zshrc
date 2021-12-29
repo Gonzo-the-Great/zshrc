@@ -4,11 +4,13 @@
 export ZSH="$HOME/.oh-my-zsh"
 #
 # set the default editor 
-if [[ `uname` == "Linux" ]]; then # It's Linux
-  git config --global core.editor "micro"
-elif [[ `uname` == "Darwin" ]]; then # It's a MAC
-  git config --global core.editor "code --wait"
-fi
+# if [[ `git config core.editor` = ""]]; then
+#   if [[ `uname` == "Linux" ]]; then # It's Linux
+#     sudo git config --global core.editor "micro"
+#   elif [[ `uname` == "Darwin" ]]; then # It's a MAC
+#     git config --global core.editor "code --wait"
+#   fi
+# fi
 # Aliases
 alias conf='micro ~/.zshrc'
 alias src='source ~/.zshrc'
