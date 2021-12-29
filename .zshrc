@@ -3,12 +3,11 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 #
-# Make defauled editor 'micro'
+# set the default editor 
 if [[ `uname` == "Linux" ]]; then # It's Linux
-  export EDITOR='micro'
-  
+  git config --global core.editor "micro"
 elif [[ `uname` == "Darwin" ]]; then # It's a MAC
-  
+  git config --global core.editor "code --wait"
 fi
 # Aliases
 alias conf='micro ~/.zshrc'
