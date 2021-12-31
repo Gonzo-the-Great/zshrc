@@ -22,7 +22,7 @@ alias ignore='micro .gitignore'
 
 alias sl="tail -n50 -f /var/log/syslog"
 
-alias ip='ifconfig | grep "inet " | grep -v 127' #get your ip address
+alias ipa='ifconfig | grep "inet " | grep -v 127' #get your ip address
 alias wifi='networksetup -setairportpower en0' #wifi on and wifi off shortcuts
 
 alias pm='python manage.py'
