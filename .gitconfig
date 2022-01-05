@@ -8,3 +8,5 @@
 	email = 18699503+GonzoTG@users.noreply.github.com
 	username = GonzoTG
 
+[init]
+	defaultBranch = main
