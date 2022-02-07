@@ -16,6 +16,8 @@ alias conf='micro ~/.zshrc'
 alias src='source ~/.zshrc'
 alias fs='du -hs * | gsort -h' #print size of current files and directories in the current directory, sorted by size
 alias op='open .' #open current folder in the macOS Finder
+alias pip=pip3
+alias python=python3
 
 alias cdp='cd ..'#quicker to type in :p
 alias ignore='micro .gitignore'
