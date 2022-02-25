@@ -104,7 +104,7 @@ zstyle ':omz:update' frequency 5
 
 plugins=(
 git
-copydir
+copypath
 copyfile
 zsh-autosuggestions
 web-search
