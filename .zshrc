@@ -14,8 +14,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # Aliases
 alias conf='micro ~/.zshrc'
 alias src='source ~/.zshrc'
-alias fs='du -hs * | gsort -h' #print size of current files and directories in the current directory, sorted by size
-alias duh='du -c -h -d 1 |gsort -h'
+alias fs='du -hs * | sort -h' #print size of current files and directories in the current directory, sorted by size
+alias duh='du -c -h -d 1 | sort -h'
 # alias op='open .' #open current folder in the macOS Finder
 alias pip=pip3
 alias python=python3
