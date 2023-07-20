@@ -19,6 +19,7 @@ alias duh='du -c -h -d 1 | sort -h'
 # alias op='open .' #open current folder in the macOS Finder
 alias pip=pip3
 alias python=python3
+alias yp='yadm pull -f'
 
 alias cdp='cd ..'#quicker to type in :p
 alias ignore='micro .gitignore'
