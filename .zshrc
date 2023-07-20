@@ -160,3 +160,5 @@ prompt_context() {
 # This won't take effect until a source is issued or the next time you login
 # yadm pull -f
 
+
+test -e "$HOME/.shellfishrc" && source "$HOME/.shellfishrc"
