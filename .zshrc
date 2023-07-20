@@ -157,5 +157,5 @@ prompt_context() {
 
 # Pull latest version of zshrc
 # This won't take effect until a source is issued or the next time you login
-yadm pull -f
+# yadm pull -f
 
