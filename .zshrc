@@ -3,6 +3,7 @@ export PATH=$PATH:/mnt/linux/scripts
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+export EDITOR="code -w"
 #
 # set the default editor 
 # if [[ `git config core.editor` = ""]]; then
@@ -28,6 +29,7 @@ alias ignore='micro .gitignore'
 alias sl="tail -n50 -f /var/log/syslog"
 
 alias ipa='ifconfig | grep "inet " | grep -v 127' #get your ip address
+alias ipa6='ifconfig |grep "inet6 " # get your ipv6 address
 alias wifi='networksetup -setairportpower en0' #wifi on and wifi off shortcuts
 
 alias pm='python manage.py'
@@ -164,3 +166,4 @@ prompt_context() {
 
 
 test -e "$HOME/.shellfishrc" && source "$HOME/.shellfishrc"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
